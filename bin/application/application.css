@@ -1,0 +1,29 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+root{
+	-fx-background-color: #caf0f8;
+}
+TextField{
+	-fx-opacity:1;
+    -fx-font-size: 4rem;
+    -fx-pref-width: 350;
+    -fx-pref-height: 40;
+    -fx-border-width:2;
+    -fx-border-color: gray;
+    -fx-border-radius:2.5;
+}
+
+Button{
+	-fx-background-color: #00b4d8;
+	-fx-pref-height: 60;
+	-fx-pref-width: 60;
+}
+
+Button:hover{
+	-fx-background-color: #90e0ef;
+	-fx-cursor:hand ;
+}
+
+.Buttonops{
+	-fx-pref-width:30;
+}
+
